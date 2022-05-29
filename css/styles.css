@@ -181,6 +181,7 @@ list-style: none;
 
 .hero-btn{
     font-family: inherit;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -188,11 +189,14 @@ list-style: none;
     cursor: pointer; 
     background-color: var(--brand-color);
     display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
 }
 
 
 .hero .hero-btn:hover{
- background-color: var(--brand-color);
+ background-color: #188CE8;
 }
 
 /* ------------ADVANTAGE STYLE----------- */
@@ -276,6 +280,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14), 
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+
+background-color: #fff;
 }
 
 
@@ -309,6 +315,9 @@ border-radius: 0px 0px 4px 4px;
 /* ---FOOTER STYLE--- */
 
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: #2F303A;
 }
 
@@ -361,8 +370,7 @@ margin-bottom: 20px;
 }
 
 .footer-padding{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
 }
 
 /* .location:hover, .location:focus{
