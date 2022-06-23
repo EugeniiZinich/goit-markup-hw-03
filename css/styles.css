@@ -164,6 +164,7 @@ list-style: none;
 .hero{
     background: #2F303A;
     text-align: center;
+    padding: 200px 0;
 }
 
 .hero-title{
